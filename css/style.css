@@ -307,7 +307,7 @@
     align-self: stretch;
     border-radius: 25px;
     border: 1px solid #ee2;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     padding: 8px 19px;
     font: 700 16px/120% Roboto, sans-serif;
 }
@@ -494,7 +494,7 @@
 .div-34 {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     display: flex;
     min-height: 446px;
@@ -513,7 +513,7 @@
 }
 
 .div-35 {
-    position: relative;
+    position: absolute;
     color: #fff;
     text-align: justify;
     width: 411px;
@@ -528,7 +528,9 @@
     background-color: #2cb34a;
     z-index: 1;
     max-width: 100%;
-    margin: 0 -55px -59px 0;
+    top: -100px;
+    right: -25px;
+    /* margin: 0 -55px -59px 0; */
     padding: 25px 20px;
     font: 400 16px/140% Roboto, sans-serif;
 }
@@ -537,6 +539,8 @@
     .div-35 {
         margin-bottom: 10px;
         padding: 0 5px;
+        right: 0px;
+        top: 0px;
     }
 }
 
@@ -551,6 +555,7 @@
 @media (max-width: 991px) {
     .column-2 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
