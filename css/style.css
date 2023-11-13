@@ -1071,6 +1071,7 @@
 @media (max-width: 991px) {
     .column-4 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -1180,6 +1181,7 @@
 @media (max-width: 991px) {
     .column-5 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -1289,6 +1291,7 @@
 @media (max-width: 991px) {
     .column-6 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -1387,6 +1390,7 @@
 @media (max-width: 991px) {
     .column-7 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -1462,6 +1466,7 @@
 @media (max-width: 991px) {
     .column-8 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -1571,6 +1576,7 @@
 @media (max-width: 991px) {
     .column-9 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -1680,6 +1686,8 @@
 @media (max-width: 991px) {
     .column-10 {
         width: 100%;
+        margin-left: 0px;
+        margin-bottom: 1em;
     }
 }
 
@@ -1944,6 +1952,7 @@
 @media (max-width: 991px) {
     .column-13 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -2213,6 +2222,7 @@
 @media (max-width: 991px) {
     .column-18 {
         width: 100%;
+        margin-left: 0px;
     }
 }
 
@@ -2905,4 +2915,9 @@
         white-space: initial;
         max-width: 100%;
     }
+}
+
+.img-contact {
+    height: 50px;
+    width: 50px;
 }
