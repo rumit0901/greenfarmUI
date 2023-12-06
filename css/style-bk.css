@@ -2038,7 +2038,7 @@
 
 .div-134 {
     display: flex;
-    /* margin-top: 15px; */
+    margin-top: 15px;
     flex-direction: column;
     padding: 0 20px;
 }
@@ -2160,7 +2160,7 @@
 
 .div-139 {
     display: flex;
-    /* margin-top: 16px; */
+    margin-top: 16px;
     flex-grow: 1;
     flex-direction: column;
     padding: 0 20px;
