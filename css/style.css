@@ -2047,6 +2047,7 @@
     .div-134 {
         max-width: 100%;
         margin-top: 40px;
+        padding: 0px;
     }
 }
 
@@ -2059,6 +2060,7 @@
 @media (max-width: 991px) {
     .div-135 {
         max-width: 100%;
+        /* padding: 0px 20px; */
     }
 }
 
@@ -2073,6 +2075,7 @@
 @media (max-width: 991px) {
     .div-136 {
         max-width: 100%;
+        /* padding: 0px 20px; */
     }
 }
 
@@ -2920,4 +2923,29 @@
 .img-contact {
     height: 50px;
     width: 50px;
+}
+
+.post-title {
+    color: var(--Darck-color, #080f18);
+    /* margin-right: -20px; */
+    font: 700 16px/140% Roboto, sans-serif;
+}
+
+.post-brief {
+    color: #646464;
+    text-align: justify;
+    /* margin: 6px -20px 0 0; */
+    font: 400 16px/120% Roboto, sans-serif;
+}
+
+.post-time {
+    color: #969696;
+    margin-right: -20px;
+    white-space: nowrap;
+    font: 400 14px/120% Roboto, sans-serif;
+    margin-top: 1em;
+}
+
+.img-100 {
+    width: 100%;
 }
