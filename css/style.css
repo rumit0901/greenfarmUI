@@ -866,14 +866,16 @@
 }
 
 .div-55 {
-    color: #2cb34a;
-    margin-top: 7px;
-    font: 700 16px/140% Roboto, sans-serif;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
 @media (max-width: 991px) {
     .div-55 {
         max-width: 100%;
+        margin-top: 30px;
     }
 }
 
@@ -2978,4 +2980,52 @@
     align-self: stretch;
     white-space: nowrap;
     font: 400 13px/16px Roboto, sans-serif;
+}
+
+.btn-abt-contact {
+    border-radius: 12px;
+    background: #2CB34A;
+    height: 56px;
+    padding: 16px 20px;
+    color:white;
+    border: 1px #2CB34A solid;
+}
+
+.about-bg {
+    background: linear-gradient(180deg, #fafafa 0%, #fff 100%);
+    box-shadow: 0px 0.75px 0px 0px #e5e5e5;
+    align-self: stretch;
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    padding-right: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-bg > .banner  {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 507px;
+    width: 847px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: end;
+    padding: 50px 0 50px 60px; 
+}
+
+.banner > img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* z-index: -1; */
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0.4) blur(5px);
 }
