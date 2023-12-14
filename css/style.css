@@ -2931,8 +2931,13 @@
 }
 
 .img-contact {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.text-middle {
+    align-self: center;
 }
 
 .post-title {

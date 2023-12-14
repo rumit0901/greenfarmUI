@@ -397,7 +397,7 @@
     align-self: center;
     margin-top: 20px;
     width: 100%;
-    max-width: 1176px;
+    /* max-width: 1176px; */
 }
 
 @media (max-width: 991px) {
@@ -535,7 +535,7 @@
     display: flex;
     flex-direction: column;
     line-height: normal;
-    width: 49%;
+    width: 76%;
     margin-left: 20px;
 }
 
@@ -546,7 +546,7 @@
     }
 }
 
-.div-36 {
+.cate-area {
     display: flex;
     margin-top: 9px;
     justify-content: space-between;
@@ -560,7 +560,7 @@
     } */
 }
 
-.div-37 {
+.cate-info {
     justify-content: space-between;
     display: flex;
     gap: 4px;
@@ -705,7 +705,7 @@
     border-bottom: 0.6px solid #eee;
     display: flex;
     margin-top: 9px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 8px;
     padding: 2px 0;
 }
@@ -861,14 +861,16 @@
     }
 }
 
-.div-57 {
-    color: #000;
-    margin-top: 12px;
-    font: 400 16px/22px Roboto, sans-serif;
+.form-title {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
 }
-
 @media (max-width: 991px) {
-    .div-57 {
+    .form-title {
         max-width: 100%;
     }
 }
@@ -938,9 +940,17 @@
     }
 }
 
+.div-63 {
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
+    margin-top: 24px;
+    gap: 20px
+}
 @media (max-width: 991px) {
     .div-63 {
         max-width: 100%;
+        flex-wrap: wrap;
     }
 }
 
@@ -972,24 +982,29 @@
 }
 
 .div-65 {
-    color: #2cb34a;
-    text-align: center;
-    max-width: 100%;
-    font: 700 39px/47px SVN-Product Sans, -apple-system, Roboto, Helvetica,
-        sans-serif;
+    justify-content: space-between;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 991px) {
-    .div-65 {
+    /* .div-65 {
         margin-top: 16px;
-    }
+    } */
 }
 
 .div-66 {
-    border-radius: 8px 8px 0px 0px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
+    color: #4d4d4d;
+    text-align: right;
+    white-space: nowrap;
+    font: 700 16px/22px Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div-66 {
+        white-space: initial;
+    }
 }
 
 .img-13 {
@@ -1007,25 +1022,34 @@
 }
 
 .div-67 {
-    border-radius: 0px 0px 8px 8px;
-    border: 1.5px solid #e6e6e6;
-    background-color: var(--gray-scale-white, #fff);
+    justify-content: flex-end;
+    align-self: start;
     display: flex;
-    flex-direction: column;
-    padding: 16px 16px 25px;
+    padding-left: 74px;
+    gap: 12px;
+    margin: 5px 0 0 16px;
+}
+
+@media (max-width: 991px) {
+    .div-67 {
+        margin-left: 10px;
+        padding-left: 20px;
+    }
 }
 
 .div-68 {
-    border-radius: 12px;
-    border: 3px solid #ffdd51;
-    background: linear-gradient( 180deg, rgba(255, 236, 160, 0.6) 0%, rgba(255, 221, 81, 0) 100% );
-    backdrop-filter: blur(2px);
-    display: flex;
-    width: 100%;
+    color: var(--neutral-400, #999);
+    align-self: center;
     flex-grow: 1;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 12px 12px 50px;
+    white-space: nowrap;
+    margin: auto 0;
+    font: 400 16px/19px Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div-68 {
+        white-space: initial;
+    }
 }
 
 .div-69 {
@@ -1075,14 +1099,12 @@
 }
 
 .img-14 {
-    aspect-ratio: 1.25;
+    aspect-ratio: 1;
     object-fit: contain;
     object-position: center;
-    width: 15px;
+    width: 40px;
     overflow: hidden;
-    align-self: center;
     max-width: 100%;
-    margin: auto 0;
 }
 
 .div-72 {
@@ -2916,8 +2938,23 @@
 }
 
 .img-contact {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.text-middle {
+    align-self: center;
+}
+
+.order-cate-num {
+    color: var(--Gray-Scale-Gray-500, #808080);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
 }
 
 .post-title {
@@ -3187,6 +3224,7 @@
     padding-top: 1em;
     padding-bottom: 1em;
     border-color: #2cb34a;
+    background-color: #2cb34a;
 }
 
 @media (max-width: 991px) {
